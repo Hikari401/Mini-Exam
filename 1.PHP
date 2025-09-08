@@ -1,5 +1,5 @@
 <?php
-    include "conndb.php";
+    include "conndb.php";    
     $dbname = "bank";
     if($conn -> select_db($dbname)){
         echo "Darabase".$dbname."selected successfully!<br>";
